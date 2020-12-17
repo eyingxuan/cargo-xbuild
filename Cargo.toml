@@ -41,3 +41,6 @@ version = "0.10"
 [features]
 dev = []
 backtrace = ["error-chain/backtrace"]
+
+[patch.crates-io]
+object = { git = "https://github.com/eyingxuan/object" }
